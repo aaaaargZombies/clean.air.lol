@@ -1,5 +1,5 @@
-{{ $desc := plainify .Summary }} {{ $title := .Site.Title }} {{ $image :=
-"cleanAirLolOg.png"}} {{ $link := .Permalink }}
+{{ $desc := plainify .Summary }} {{ $title := .Site.Title }} {{ $image := (
+printf "%s%s" .Site.BaseURL "cleanAirLolOg.png") }} {{ $link := .Permalink }}
 
 <!--generic metadata -->
 
