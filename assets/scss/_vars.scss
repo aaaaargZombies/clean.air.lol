@@ -1,0 +1,15 @@
+:root {
+  // sizes
+  --step--2: clamp(0.78rem, calc(0.71rem + 0.33vw), 1rem);
+  --step--1: clamp(0.94rem, calc(0.84rem + 0.48vw), 1.25rem);
+  --step-0: clamp(1.13rem, calc(0.99rem + 0.67vw), 1.56rem);
+  --step-1: clamp(1.35rem, calc(1.17rem + 0.92vw), 1.95rem);
+  --step-2: clamp(1.62rem, calc(1.37rem + 1.26vw), 2.44rem);
+  --step-3: clamp(1.94rem, calc(1.6rem + 1.7vw), 3.05rem);
+  --step-4: clamp(2.33rem, calc(1.88rem + 2.27vw), 3.82rem);
+  --step-5: clamp(2.8rem, calc(2.2rem + 3.01vw), 4.77rem);
+  // colors
+  --dark: blue;
+  --light: #c4fdf9;
+  --transparent: #fff0;
+}

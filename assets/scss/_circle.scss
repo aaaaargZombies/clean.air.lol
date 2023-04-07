@@ -1,0 +1,130 @@
+.circle-container {
+  --diameter: 224px;
+  position: relative;
+  width: var(--diameter);
+  height: var(--diameter);
+  display: block;
+  transform-origin: center center;
+  animation: rotate 20s linear infinite;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.circle {
+  --num-chars: 21;
+  --num-chars: 14;
+  --arc: calc(360deg / var(--num-chars));
+  --deg: 227deg;
+  position: absolute;
+  left: calc(var(--diameter) / 2);
+  font-size: 25px;
+  text-transform: capitalize;
+}
+
+.circle > span {
+  background-color: hsla(0, 0, 0, 0);
+  font-size: var(--step--3);
+  height: calc(var(--diameter) * 0.9);
+  position: absolute;
+  left: 0;
+  top: calc(var(--diameter) * 0.05);
+}
+
+.circle > span:nth-child(1) {
+  transform: rotate(0deg);
+}
+
+.circle > span:nth-child(2) {
+  transform: rotate(calc(1 * var(--arc)));
+}
+
+.circle > span:nth-child(3) {
+  transform: rotate(calc(2 * var(--arc)));
+}
+
+.circle > span:nth-child(4) {
+  transform: rotate(calc(3 * var(--arc)));
+}
+
+.circle > span:nth-child(5) {
+  transform: rotate(calc(4 * var(--arc)));
+}
+
+.circle > span:nth-child(6) {
+  transform: rotate(calc(5 * var(--arc)));
+}
+
+.circle > span:nth-child(7) {
+  transform: rotate(calc(6 * var(--arc)));
+}
+
+.circle > span:nth-child(8) {
+  transform: rotate(calc(7 * var(--arc)));
+}
+
+.circle > span:nth-child(9) {
+  transform: rotate(calc(8 * var(--arc)));
+}
+
+.circle > span:nth-child(10) {
+  transform: rotate(calc(9 * var(--arc)));
+}
+
+.circle > span:nth-child(11) {
+  transform: rotate(calc(10 * var(--arc)));
+}
+
+.circle > span:nth-child(12) {
+  transform: rotate(calc(11 * var(--arc)));
+}
+
+.circle > span:nth-child(13) {
+  transform: rotate(calc(12 * var(--arc)));
+}
+
+.circle > span:nth-child(14) {
+  transform: rotate(calc(13 * var(--arc)));
+}
+
+.circle > span:nth-child(15) {
+  transform: rotate(calc(14 * var(--arc)));
+}
+
+.circle > span:nth-child(16) {
+  transform: rotate(calc(15 * var(--arc)));
+}
+
+.circle > span:nth-child(17) {
+  transform: rotate(calc(16 * var(--arc)));
+}
+
+.circle > span:nth-child(18) {
+  transform: rotate(calc(17 * var(--arc)));
+}
+
+.circle > span:nth-child(19) {
+  transform: rotate(calc(18 * var(--arc)));
+}
+
+.circle > span:nth-child(20) {
+  transform: rotate(calc(19 * var(--arc)));
+}
+
+.circle > span:nth-child(21) {
+  transform: rotate(calc(20 * var(--arc)));
+}
+
+.circle > span:nth-child(22) {
+  transform: rotate(calc(21 * var(--arc)));
+}
+
+.circle > span:nth-child(23) {
+  transform: rotate(calc(23 * var(--arc)));
+}
